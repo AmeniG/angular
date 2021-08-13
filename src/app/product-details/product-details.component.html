@@ -1,0 +1,32 @@
+<h2>Product Details</h2> 
+
+<hr/>
+<div *ngIf="category">
+  <div>
+    <label><b>Code </b></label> {{product.code}}
+  </div>
+  <div>
+    <label><b>price: </b></label> {{product.price}}
+  </div>
+  <div>
+    <label><b>name: </b></label> {{product.name}}
+  </div>
+  <div>
+    <label><b>stock: </b></label> {{product.stock}}
+  </div>
+  <div>
+    <label><b>color: </b></label> {{product.description}}
+  </div>
+  <div>
+    <label><b>brand: </b></label> {{product.description}}
+  </div>
+  <div>
+    <label><b>expiration Date: </b></label> {{product.description}}
+  </div>
+  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Product List</button><br>
+
